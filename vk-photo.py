@@ -227,8 +227,7 @@ def huy():
         print(f'\n{white} неизвестная {red}ОШИБКА\n\n')
         input(f"{green} введите что-нибудь, чтобы вернуться в меню: {text2}")
         print(f'{sbros}')
-        banner()
-        menu()
+        huy()
         return 0
 
 huy()
