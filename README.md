@@ -3,9 +3,9 @@
 ## установка и запуск
 -     git clone https://github.com/HANTER-NA-CODE/vk-photo
 -     cd vk-photo
--     python photo.py
+-     python vk-photo.py
 ## если я ничего не шарю и в первые зашёл в терминал
 - должен быть установлен python
 - должен быть установлен git
 
-как это устанавливать ищите в интернете
+как это устанавливать ищи в интернете
