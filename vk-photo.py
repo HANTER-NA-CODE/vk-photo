@@ -57,12 +57,12 @@ def method(METHOD, PARAMS = ''):
 
 def banner():
     terminal("clear")
-    print(f"{blue}       _             {purple} ____  _    _ ___ ________ __   { white }          "); sleep(0.02)
-    print(f"{blue}      | | __         {purple}|    '| |  | |    \__   __|  \  { white } --^--^-- "); sleep(0.02)
-    print(f"{blue} __   |_ / /  _____  {purple}| >>> | |__| | ::  | | |  ::  | {purple2}  HANTER  "); sleep(0.02)
-    print(f"{blue} \ \  / / /  |{purple}_____| |  ___|  __  | ::  | | |  ::  | {purple2}    NA    "); sleep(0.02)
-    print(f"{blue}  \ \/ /  \          {purple}| |   | |  | | ::  | | |  ::  | {purple2}   CODE   "); sleep(0.02)
-    print(f"{blue}   \__/_|\_\         {purple}|_|   |_|  |_|____/  |_| ____/  { white } <------> "); sleep(0.02)
+    print(f"{blue}       _     { white }          "); sleep(0.02)
+    print(f"{blue}      | | __ { white } --^--^-- "); sleep(0.02)
+    print(f"{blue} __   |_ / / {purple2}  HANTER  "); sleep(0.02)
+    print(f"{blue} \ \  / / /  {purple2}    NA    "); sleep(0.02)
+    print(f"{blue}  \ \/ /  \  {purple2}   CODE   "); sleep(0.02)
+    print(f"{blue}   \__/_|\_\ { white } <------> "); sleep(0.02)
 
 
 
