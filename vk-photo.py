@@ -57,12 +57,12 @@ def method(METHOD, PARAMS = ''):
 
 def banner():
     terminal("clear")
-    print(f"{blue}          __               {purple}  ______  __     __ _____ __________ ______   { white }           "); sleep(0.02)
-    print(f"{blue}         |  | ___          {purple} |      '|  |   |  |      \__    ___|      \  { white }  --^--^-- "); sleep(0.02)
-    print(f"{blue}   ___   |___/  /   _____  {purple} |  >>>> |  |___|  | :::   | |  | |   :::   | {purple2}   HANTER  "); sleep(0.02)
-    print(f"{blue}   \  \  /  /  /   |{purple}_____|  |   ____|   ___   | :::   | |  | |   :::   | {purple2}     NA    "); sleep(0.02)
-    print(f"{blue}    \  \/  /   \           {purple} |  |    |  |   |  | :::   | |  | |   :::   | {purple2}    CODE   "); sleep(0.02)
-    print(f"{blue}     \____/_|\__\          {purple} |__|    |__|   |__|______/  |__|  \_______/  { white }  <------> "); sleep(0.02)
+    print(f"{blue}         _              {purple}  _____  _    _ ___ ________ ___   { white }          "); sleep(0.02)
+    print(f"{blue}        | | __          {purple} |     '| |  | |    \__   __|   \  { white } --^--^-- "); sleep(0.02)
+    print(f"{blue}   __   |_ / /   _____  {purple} | >>>> | |__| | ::  | | |  :::  | {purple2}  HANTER  "); sleep(0.02)
+    print(f"{blue}   \ \  / / /   |{purple}_____|  |  ____|  __  | ::  | | |  :::  | {purple2}    NA    "); sleep(0.02)
+    print(f"{blue}    \ \/ /  \           {purple} | |    | |  | | ::  | | |  :::  | {purple2}   CODE   "); sleep(0.02)
+    print(f"{blue}     \__/_|\_\          {purple} |_|    |_|  |_|____/  |_|\_____/  { white } <------> "); sleep(0.02)
 
 
 
