@@ -41,7 +41,7 @@ def method(METHOD, PARAMS = ''):
 def banner():
     terminal("clear")
     print("\033[34m   ___    ___   ___    ___   __ --- __    \033[35m        "); sleep(0.02)
-    print("\033[34m   \  \  /  /   \  \  /  /  |  |  /   |   \033[00m ------ "); sleep(0.02)
+    print("\033[34m   \  \  /  /   \  \  /  /  |  |  /   |   \033[00m -^--^- "); sleep(0.02)
     print("\033[34m    \  \/  /     \  \/  /   |  | /    |   \033[35m HANTER "); sleep(0.02)
     print("\033[34m     \    /       \    /    |  |/     |   \033[35m   NA   "); sleep(0.02)
     print("\033[34m     /    \        /  /     |     /|  |   \033[35m  CODE  "); sleep(0.02)
