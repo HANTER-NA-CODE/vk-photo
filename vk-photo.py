@@ -61,7 +61,7 @@ def vk(METHOD, **params):
 '''**********************************************************   БАННЕР   **************************************************************'''
 
 def banner():
-    system("cls")
+    system("clear")
     print(f"{blue}       _     {purple}     { white }          "); sleep(0.02)
     print(f"{blue}      | | __ {purple} P   { white } --^--^-- "); sleep(0.02)
     print(f"{blue} __   |_ / / {purple} H   {purple2}  HANTER  "); sleep(0.02)
