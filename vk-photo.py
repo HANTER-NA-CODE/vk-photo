@@ -266,7 +266,7 @@ def menu():
         pok = input(f"{green} выбери вариант: {text2}"); print(f"{white}")  #  выбери вариант: 
         if pok == '1':
             banner()           # баннер 
-            return menu()      # возвращение в меню
+            return main()      # основной код (main)
         elif pok == '2':
             banner()           # баннер
             return sm_token()  # смена токена
