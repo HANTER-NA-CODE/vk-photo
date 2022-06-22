@@ -158,9 +158,10 @@ def main():
             print()                                                                                                                                    #        альбомы 
             print(f'{purple}        альбомы   \n'); sleep(0.02)                                                                                        # 
             for i in alboms:                                                                                                                           #   1 | lovely
-                print(f'{text}   ' + str(i['rowid']) + ' '*(maxs+1 -len(str(i['rowid']))) + f'{sbros}| ' + f'{text2}' + str(i['title'])); sleep(0.02)  #   2 | banner
+                print(f'{text}   ' + str(i['rowid']) + ' '*(maxs+1 -len(str(i['rowid']))) + f'{sbros}| ' + f'{text2}' + str(i['title'])); sleep(0.02)  #   2 | banner 
             #                                                                                                                                          #   3 | cutie
             #*****************************  выбор альбома  ==============================                                                              #   4 | uwu                 
+            print()
             def rowid():
                 while True:
                     rowid = input(f"{green} номер альбома: {text}")                                  # номер альбома:
@@ -241,7 +242,7 @@ def main():
             #==============================  неизвестная ошибка  ==============================
             except:
                 count2 = i - 1
-                print(f'\n {red}ОШИБКА{white} неизвестная ошибка\n')
+                print(f'\n\n {red}ОШИБКА{white} неизвестная причина')
                 sleep(0.5)
 
     main2(count, 0)
